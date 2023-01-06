@@ -189,7 +189,7 @@ header .inner .right_menu li:nth-child(1) {
     object-fit: cover;
 }
 .web .list .item .info {
-    background-color: aquamarine;
+    background-color: #e0c9a2;
     padding: 40px;
 }
 .web .list .item .info h4 {
@@ -212,7 +212,7 @@ header .inner .right_menu li:nth-child(1) {
     margin-top: 40px;
 }
 
-/* 🤦‍♀️🤦‍♂️ web 🤦‍♀️🤦‍♂️ */
+/* 🤦‍♀️🤦‍♂️ .graphic 🤦‍♀️🤦‍♂️ */
 .graphic {
     padding: 180px 0;
 }
