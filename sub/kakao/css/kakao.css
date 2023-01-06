@@ -1,0 +1,230 @@
+@charset "utf-8"; 
+
+@font-face {
+    font-family: 'SBAggroB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * { 
+ font-family: 'Noto Sans KR', sans-serif;
+}
+
+* { 
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+} 
+
+a {
+    text-decoration: none;
+    color: inherit; } 
+
+body {
+    line-height: 1;
+    background-color: #121212;
+    color: #f9f9f9; } 
+
+/* 🤦‍♂️🤦‍♀️ .header 🤦‍♂️🤦‍♀️ */
+header {
+    width: 1440px;
+    margin: 0 auto;
+    height: 41px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .home p{
+    margin: 0 101px 0 0;
+    text-align: center;
+    display: inline-block;
+    justify-content: space-between;
+    font-family: 'SBAggroB';
+    font-size: 20px;
+    color: #444444;
+}
+
+header .home p:nth-child(3) {
+    color: #f9f9f9;    
+}
+
+/* 🤦‍♂️🤦‍♀️ .cont01 🤦‍♂️🤦‍♀️ */
+section { 
+    font-family: 'GmarketSansMedium';
+    width: 1440px;
+    margin: 0 auto;
+    height: 100px;
+    margin-top: 200px;
+    text-align: start;
+}
+section .cont01  {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+section .cont01 .circle01 h3 {
+    display: inline-block;
+    width: 62px;
+    height: 30px;
+    line-height: 35px;
+    border-radius: 15px;
+    text-align: center; 
+    margin: 30px;
+    background-color: #ff3042;
+    color: #f9f9f9;
+}
+section .cont01 .circle02 h3 {
+    display: inline-block;
+    width: 83px;
+    height: 30px;
+    line-height: 35px;
+    border-radius: 15px;
+    text-align: center; 
+    margin: 30px;
+    background-color: #c6a66d;
+    color: #f9f9f9;
+}
+section .cont01 .circle03 h3 {
+    display: inline-block;
+    width: 83px;
+    height: 30px;
+    line-height: 35px;
+    border-radius: 15px;
+    text-align: center; 
+    margin: 30px;
+    background-color: #6853e7;
+    color: #f9f9f9;
+}
+section .cont01 .circle04 h3 {
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    line-height: 35px;
+    border-radius: 15px;
+    text-align: center; 
+    margin: 30px;
+    background-color: #65a5ff;
+    color: #f9f9f9;
+}
+section .cont01 .one {
+    align-items: center;
+    display: flex;
+    justify-content: start;
+}
+section .cont01 .one .left {
+    opacity: 50%;
+}
+section .cont01 .one .right {
+    opacity: 50%;
+}
+section .cont01 .one .text {
+    font-family: 'SBAggroB';
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+    height: 374px;
+    
+}
+section .cont01 .one .text dl dt {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+section .cont01 .one .text dl dd {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    font-weight: light;
+    line-height: 25px;
+    margin-top: 20px;
+}
+section .cont01 .one .text video {
+    width: 360px;
+    
+}
+
+/* 🤦‍♂️🤦‍♀️ .banner 🤦‍♂️🤦‍♀️ */
+section .banner {
+    width: 1440px;
+    font-family: 'SBAggroB';
+    font-size: 30px;
+    text-align: center;
+    margin-top: 300px;
+    line-height: 20px;
+    display: block;
+    color: #444444;
+}
+section .banner p {
+    display: inline-block;
+    justify-content: center;
+    padding: 30px 78px;
+}
+section .banner p:nth-child(1) {
+    color: #f1f1f1;
+}
+section .banner ul{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+section .banner ul li:nth-child(7) {
+    color: #f1f1f1;
+}
+/* 🤦‍♀️🤦‍♂️ .cont02 🤦‍♀️🤦‍♂️ */
+.cont02 {
+    width: 1440px;
+    margin-top: 200px;
+    flex-wrap: wrap;
+    text-align: center;
+}   
+
+.cont02 .top {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+}   
+.cont02 .mid {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+}   
+.cont02 .bot {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+}   
+
+/* 🤦‍♀️🤦‍♂️ .footer 🤦‍♀️🤦‍♂️ */
+
+footer {
+    color: #444444;
+    text-align: center;
+    padding: 200px 0 100px;  
+}
+footer .inner {
+ font-family: 'Noto Sans KR', sans-serif;
+    width: 1440px;
+    margin: 0 auto;
+}
+footer .inner ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+footer .inner p {
+    font-size: 14px;
+    margin-top: 30px;
+}
