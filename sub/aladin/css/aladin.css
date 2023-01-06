@@ -1,0 +1,302 @@
+@charset "utf-8"; 
+
+@font-face {
+    font-family: 'SBAggroB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * { 
+ font-family: 'Noto Sans KR', sans-serif;
+}
+*{ 
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+} 
+
+a {
+    text-decoration: none;
+    color: inherit; } 
+
+body {
+    
+    background-color: #FFFFFF;
+    color: #444444; 
+    font-family: 'Noto Sans KR', sans-serif
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* header */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    z-index: 1;
+    border-bottom: 5px solid #ACACAC;
+    background-color: #f9f9f9
+    
+
+}
+header .inner {
+    width: 1660px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+header .inner .home ul {
+    display: flex;
+    font-size: 30px;
+}
+header .inner .home ul li{
+    padding: 0 60px;
+    font-weight: bold;
+}
+header .inner .home .serach {
+    border: 5px solid #426bb0 ;
+    margin-top: 10px;
+    padding: 10px 0;
+    border-radius: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+header .inner .home .serach i {
+    margin-right: 20px;
+}
+
+/* cont01 */
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0 auto; 
+}
+.intro .cont01 h2 {
+    font-size: 40px;
+    font-family: 'SBAggroB';
+    margin-bottom: 30px;
+    display: flex;
+    
+}
+.intro .cont01 .main_visual {
+    border: 1px solid #444444;
+    border-radius:  40px 0 0 40px;
+    overflow: hidden;
+    width: 1660px;
+    height: 550px;
+    background-color: #f9f9f9;
+}
+.cont01 .swiper-backface-hidden .swiper-slide {
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cont01 .swiper-button-prev:after,
+.cont01 .swiper-rtl .swiper-button-next:after {
+    display: none;
+}
+.cont01 .swiper-button-next, 
+.cont01 .swiper-rtl .swiper-button-prev {
+    display: none;
+}
+.intro .cont01 .main_visual .cont01_slide {
+    height: 90%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.cont01 .main_visual .cont01_slide .swiper-slide img{
+    width: 342px;
+    height: 500px;
+}
+.intro .cont01 .main_visual .bottom {
+    display :flex;
+    justify-content: flex-end;
+}
+.intro .cont01 .main_visual .bottom .inner {
+    width: 1440px;
+    height: 60px;
+    font-size: 20px;
+    display :flex;
+    justify-content: space-evenly;
+    background-color: #426bb0;
+}
+.intro .cont01 .main_visual .bottom .inner p{
+    display :flex;
+    margin: 30px 50px;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+}
+
+/* cont02 */
+.cont02 {
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.cont02 h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-family: 'SBAggroB';
+}
+
+.cont02 .mySwiper .swiper-slide .pic {
+    width: 342px;
+    height: 460px;
+    background-color: #e9f2f5;
+    border: 1px solid #444444;
+}
+.cont02 .mySwiper .swiper-slide .pic img {
+    width: 260px;
+    height: 385px;
+    margin: 37px 41px;
+}
+.cont02 .mySwiper .swiper-slide .text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column
+}
+.cont02 .mySwiper .swiper-slide .text h3 {
+    font-size: 20px;
+    margin:20px 0 10px;
+}
+
+.cont02 .mySwiper .swiper-slide .text p:nth-of-type(2) {
+    align-items: center;
+    border: solid #fbb018;
+    background-color: #fbb018;
+    border-radius: 40px;
+    width: 97px;
+    height: 30px;
+    text-align: center;
+    color: #f9f9f9;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    display: none;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+    display: none;
+}
+/* cont03 */
+.cont03{
+    width: 1440px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 100px; 
+}
+.cont03 h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-family: 'SBAggroB';
+}
+.cont03 .list {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid #444444;
+    width: 1440px;
+    height: 700px;
+    align-items: center;
+}
+.cont03 .list .right h3 {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+/* cont04 */
+.cont04{
+    width: 1440px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.cont04 h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-family: 'SBAggroB';
+}
+.cont04 .item .inner{
+    width: 320px;
+    height: 320px;
+    background-color: #e9f2f5;
+    border: 1px solid #444444;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cont04 .item .inner h3 {
+    margin: 10px;
+}
+.cont04 .item .top {
+    display: flex;
+    justify-content: space-evenly;
+}
+.cont04 .item .bot {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* footer */
+footer {
+    background-color: #44444471;
+}
+footer .inner {
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    align-items: center;
+}
+footer .inner img {
+    width: 375px;
+    height: 200px;
+}
+footer .inner .list {
+    color: #f9f9f9;
+
+}
+footer .inner .list .top {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
+footer .inner .list .top p {
+    margin-right: 40px;
+}
+footer .inner .list .bot {
+    margin-top: 20px;
+}
+.fp-warning, .fp-watermark a {
+    display: none;
+}
