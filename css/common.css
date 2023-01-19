@@ -14,9 +14,9 @@ li{
     list-style: none;
 }
 body {
-    color: #333;
+    color: #fff;
     line-height: 1;
-    background-color: #e0c9a2;
+    background: url(../img/cover2.png);
 }
 .swiper {
     width: 100%;
