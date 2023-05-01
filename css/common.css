@@ -1,5 +1,20 @@
 @charset "utf-8";
 
+
+@font-face {
+    font-family: 'SBAggroB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BMJUA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* 초기값, 공통요소(제목, 버튼, 폰트스타일),웹폰트 */
 *{
     margin: 0;
@@ -16,7 +31,8 @@ li{
 body {
     color: #fff;
     line-height: 1;
-    background: url(../img/cover2.png);
+    background-color: #555555;
+    font-family: 'BMJUA';
 }
 .swiper {
     width: 100%;
@@ -34,9 +50,11 @@ body {
 .title h3 {
     font-size: 50px;
     margin-bottom: 16px;
+    font-family: 'SBAggroB';
 }
 .title p {
     font-size: 18px;
+
 }
 .btn li {
     width: 180px;
@@ -49,6 +67,7 @@ body {
     justify-content: space-between;
     margin-bottom: 10px;
     transition: all 0.3s;
+
 }
 .btn li:nth-child(2) {
     width: 180px;
@@ -60,6 +79,7 @@ body {
     align-items: center;
     justify-content: space-between;
     transition: all 0.3s;
+
 }
 .btn li:hover {
     background-color: #ffc107;
