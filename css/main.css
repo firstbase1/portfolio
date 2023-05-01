@@ -205,8 +205,10 @@ header .inner .right_menu li:nth-child(1) {
 }
 
 .profile .list figure {
-    width: 400px;
-    height: 400px;
+    width: 203px;
+    height: 232px;
+    margin: 0 auto;
+    background-color: #fff;
 }
 .profile .list figure img {
     width: 100%;
